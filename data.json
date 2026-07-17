@@ -30132,11 +30132,11 @@
           "status": null
         },
         "body_battery": {
-          "charged": 0,
-          "drained": 4
+          "charged": 41,
+          "drained": 8
         },
         "avg_stress": null,
-        "resting_hr": 54.0
+        "resting_hr": 52.0
       },
       "activities": []
     }

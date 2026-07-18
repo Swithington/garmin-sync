@@ -30188,10 +30188,10 @@
             "zone_5_mins": 15.7
           },
           "weather": {
-            "temp_c": 18.4,
-            "humidity_pct": 60,
-            "wind_kph": 7.7,
-            "weather_desc": "Clear"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {

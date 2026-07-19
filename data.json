@@ -30188,10 +30188,10 @@
             "zone_5_mins": 15.7
           },
           "weather": {
-            "temp_c": 18.2,
-            "humidity_pct": 59,
-            "wind_kph": 9.1,
-            "weather_desc": "Mainly clear"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -30283,11 +30283,11 @@
           "status": null
         },
         "body_battery": {
-          "charged": null,
-          "drained": null
+          "charged": 13,
+          "drained": 3
         },
         "avg_stress": null,
-        "resting_hr": null
+        "resting_hr": 51.0
       },
       "activities": []
     }

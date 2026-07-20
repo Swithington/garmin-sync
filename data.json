@@ -30310,11 +30310,11 @@
           "status": null
         },
         "body_battery": {
-          "charged": null,
-          "drained": null
+          "charged": 2,
+          "drained": 4
         },
         "avg_stress": null,
-        "resting_hr": null
+        "resting_hr": 53.0
       },
       "activities": []
     }

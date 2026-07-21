@@ -30188,10 +30188,10 @@
             "zone_5_mins": 15.7
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 18.2,
+            "humidity_pct": 59,
+            "wind_kph": 9.1,
+            "weather_desc": "Mainly clear"
           },
           "splits": [
             {
@@ -30339,10 +30339,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 19.1,
-            "humidity_pct": 61,
-            "wind_kph": 7.9,
-            "weather_desc": "Clear"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -30478,13 +30478,110 @@
           "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 59,
-          "drained": 41
+          "charged": 62,
+          "drained": 63
         },
         "avg_stress": null,
         "resting_hr": 53.0
       },
-      "activities": []
+      "activities": [
+        {
+          "activity_id": 23682935215,
+          "name": "Wandsworth Running",
+          "type": "running",
+          "distance_km": 5.01,
+          "duration": "34:16",
+          "avg_hr": 157.0,
+          "max_hr": 172.0,
+          "avg_pace_min_km": "6:50",
+          "elevation_gain_m": 92.14713764190674,
+          "training_effect": 2.799999952316284,
+          "vo2max": 50.0,
+          "calories": 402.0,
+          "hr_drift_pct": 0.0,
+          "hr_zones": {
+            "zone_1_mins": 0.2,
+            "zone_2_mins": 0.6,
+            "zone_3_mins": 26.3,
+            "zone_4_mins": 7.2,
+            "zone_5_mins": 0.0
+          },
+          "weather": {
+            "temp_c": 23.1,
+            "humidity_pct": 44,
+            "wind_kph": 7.1,
+            "weather_desc": "Clear"
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:46",
+              "pace_min_km": "6:46",
+              "avg_hr": 148.0,
+              "max_hr": 157.0,
+              "avg_cadence": 157.375,
+              "elevation_gain": 18.04
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:57",
+              "pace_min_km": "6:57",
+              "avg_hr": 156.0,
+              "max_hr": 165.0,
+              "avg_cadence": 162.1875,
+              "elevation_gain": 21.56
+            },
+            {
+              "split_number": 3,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "7:06",
+              "pace_min_km": "7:06",
+              "avg_hr": 157.0,
+              "max_hr": 164.0,
+              "avg_cadence": 164.015625,
+              "elevation_gain": 12.62
+            },
+            {
+              "split_number": 4,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:47",
+              "pace_min_km": "6:47",
+              "avg_hr": 160.0,
+              "max_hr": 172.0,
+              "avg_cadence": 158.140625,
+              "elevation_gain": 12.07
+            },
+            {
+              "split_number": 5,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:36",
+              "pace_min_km": "6:36",
+              "avg_hr": 165.0,
+              "max_hr": 169.0,
+              "avg_cadence": 164.21875,
+              "elevation_gain": 27.87
+            },
+            {
+              "split_number": 6,
+              "split_type": "lap",
+              "distance_km": 0.011,
+              "duration": "0:04",
+              "pace_min_km": "6:02",
+              "avg_hr": 165.0,
+              "max_hr": 165.0,
+              "avg_cadence": 160.5,
+              "elevation_gain": 0.0
+            }
+          ]
+        }
+      ]
     }
   }
 }

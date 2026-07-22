@@ -30507,10 +30507,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 22.4,
+            "humidity_pct": 48,
+            "wind_kph": 6.6,
+            "weather_desc": "Clear"
           },
           "splits": [
             {

@@ -30704,8 +30704,8 @@
           "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 35,
-          "drained": 20
+          "charged": 41,
+          "drained": 42
         },
         "avg_stress": null,
         "resting_hr": 53.0

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated_at": "2026-07-24",
-    "total_days": 374,
+    "updated_at": "2026-07-25",
+    "total_days": 375,
     "first_date": "2025-07-16",
-    "last_date": "2026-07-24"
+    "last_date": "2026-07-25"
   },
   "days": {
     "2025-07-16": {
@@ -30738,6 +30738,108 @@
         "resting_hr": 53.0
       },
       "activities": []
+    },
+    "2026-07-25": {
+      "date": "2026-07-25",
+      "wellness": {
+        "date": "2026-07-25",
+        "sleep": {
+          "score": 63,
+          "duration_hrs": 5.08,
+          "deep_hrs": 0.92,
+          "rem_hrs": 0.6,
+          "light_hrs": 3.57,
+          "awake_hrs": 0.03
+        },
+        "hrv": {
+          "weekly_avg": 60,
+          "last_night": null,
+          "5min_high": 81,
+          "status": "BALANCED"
+        },
+        "body_battery": {
+          "charged": 40,
+          "drained": 25
+        },
+        "avg_stress": null,
+        "resting_hr": 53.0
+      },
+      "activities": [
+        {
+          "activity_id": 23721283256,
+          "name": "Gianyar Running",
+          "type": "running",
+          "distance_km": 3.05,
+          "duration": "23:38",
+          "avg_hr": 149.0,
+          "max_hr": 169.0,
+          "avg_pace_min_km": "7:46",
+          "elevation_gain_m": 24.782440185546875,
+          "training_effect": 2.0999999046325684,
+          "vo2max": 50.0,
+          "calories": 246.0,
+          "hr_drift_pct": 0.7,
+          "hr_zones": {
+            "zone_1_mins": 0.3,
+            "zone_2_mins": 3.9,
+            "zone_3_mins": 18.3,
+            "zone_4_mins": 1.0,
+            "zone_5_mins": 0.0
+          },
+          "weather": {
+            "temp_c": 23.5,
+            "humidity_pct": 71,
+            "wind_kph": 8.1,
+            "weather_desc": "Mainly clear"
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "8:04",
+              "pace_min_km": "8:04",
+              "avg_hr": 145.0,
+              "max_hr": 159.0,
+              "avg_cadence": 149.921875,
+              "elevation_gain": 2.9
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "7:42",
+              "pace_min_km": "7:42",
+              "avg_hr": 147.0,
+              "max_hr": 154.0,
+              "avg_cadence": 158.78125,
+              "elevation_gain": 4.44
+            },
+            {
+              "split_number": 3,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "7:35",
+              "pace_min_km": "7:35",
+              "avg_hr": 155.0,
+              "max_hr": 169.0,
+              "avg_cadence": 161.75,
+              "elevation_gain": 17.44
+            },
+            {
+              "split_number": 4,
+              "split_type": "lap",
+              "distance_km": 0.047,
+              "duration": "0:17",
+              "pace_min_km": "6:08",
+              "avg_hr": 165.0,
+              "max_hr": 168.0,
+              "avg_cadence": 161.125,
+              "elevation_gain": 0.0
+            }
+          ]
+        }
+      ]
     }
   }
 }

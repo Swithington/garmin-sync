@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated_at": "2026-07-26",
-    "total_days": 376,
+    "updated_at": "2026-07-27",
+    "total_days": 377,
     "first_date": "2025-07-16",
-    "last_date": "2026-07-26"
+    "last_date": "2026-07-27"
   },
   "days": {
     "2025-07-16": {
@@ -30889,10 +30889,10 @@
             "zone_5_mins": 2.8
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 18.6,
+            "humidity_pct": 95,
+            "wind_kph": 8.3,
+            "weather_desc": "Mainly clear"
           },
           "splits": [
             {
@@ -31125,6 +31125,97 @@
               "max_hr": 187.0,
               "avg_cadence": 163.40796019900498,
               "elevation_gain": 12.1
+            }
+          ]
+        }
+      ]
+    },
+    "2026-07-27": {
+      "date": "2026-07-27",
+      "wellness": {
+        "date": "2026-07-27",
+        "sleep": {
+          "score": null,
+          "duration_hrs": null,
+          "deep_hrs": null,
+          "rem_hrs": null,
+          "light_hrs": null,
+          "awake_hrs": null
+        },
+        "hrv": {
+          "weekly_avg": 60,
+          "last_night": null,
+          "5min_high": null,
+          "status": "BALANCED"
+        },
+        "body_battery": {
+          "charged": 2,
+          "drained": 23
+        },
+        "avg_stress": null,
+        "resting_hr": 56.0
+      },
+      "activities": [
+        {
+          "activity_id": 23743980238,
+          "name": "Bangli Walking",
+          "type": "walking",
+          "distance_km": 2.57,
+          "duration": "70:12",
+          "avg_hr": 153.0,
+          "max_hr": 179.0,
+          "avg_pace_min_km": "",
+          "elevation_gain_m": 521.0654296875,
+          "training_effect": 3.299999952316284,
+          "vo2max": 49.0,
+          "calories": 751.0,
+          "hr_drift_pct": null,
+          "hr_zones": {
+            "zone_1_mins": 7.5,
+            "zone_2_mins": 9.4,
+            "zone_3_mins": 21.3,
+            "zone_4_mins": 30.0,
+            "zone_5_mins": 0.0
+          },
+          "weather": {
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "20:20",
+              "pace_min_km": "20:20",
+              "avg_hr": 135.0,
+              "max_hr": 175.0,
+              "avg_cadence": 70.03125,
+              "elevation_gain": 140.25
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "30:26",
+              "pace_min_km": "30:25",
+              "avg_hr": 160.0,
+              "max_hr": 178.0,
+              "avg_cadence": 45.53125,
+              "elevation_gain": 254.93
+            },
+            {
+              "split_number": 3,
+              "split_type": "lap",
+              "distance_km": 0.572,
+              "duration": "19:26",
+              "pace_min_km": "34:01",
+              "avg_hr": 160.0,
+              "max_hr": 179.0,
+              "avg_cadence": 44.515625,
+              "elevation_gain": 125.89
             }
           ]
         }

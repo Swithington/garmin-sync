@@ -30889,10 +30889,10 @@
             "zone_5_mins": 2.8
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 18.6,
+            "humidity_pct": 95,
+            "wind_kph": 8.3,
+            "weather_desc": "Mainly clear"
           },
           "splits": [
             {

@@ -31178,10 +31178,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 15.8,
-            "humidity_pct": 100,
-            "wind_kph": 4.2,
-            "weather_desc": "Overcast"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {

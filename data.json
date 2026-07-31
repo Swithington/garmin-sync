@@ -31178,10 +31178,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 15.8,
-            "humidity_pct": 100,
-            "wind_kph": 4.2,
-            "weather_desc": "Overcast"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -31321,8 +31321,8 @@
           "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 50,
-          "drained": 64
+          "charged": 80,
+          "drained": 75
         },
         "avg_stress": null,
         "resting_hr": 52.0

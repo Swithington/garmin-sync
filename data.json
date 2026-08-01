@@ -31348,8 +31348,8 @@
           "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 42,
-          "drained": 22
+          "charged": 43,
+          "drained": 43
         },
         "avg_stress": null,
         "resting_hr": 50.0

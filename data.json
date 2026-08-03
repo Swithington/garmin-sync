@@ -31348,8 +31348,8 @@
           "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 43,
-          "drained": 43
+          "charged": 65,
+          "drained": 86
         },
         "avg_stress": null,
         "resting_hr": 50.0
@@ -31361,25 +31361,25 @@
       "wellness": {
         "date": "2026-08-02",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 81,
+          "duration_hrs": 7.65,
+          "deep_hrs": 0.42,
+          "rem_hrs": 1.67,
+          "light_hrs": 5.57,
+          "awake_hrs": 0.32
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 58,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 96,
+          "status": "BALANCED"
         },
         "body_battery": {
-          "charged": null,
-          "drained": null
+          "charged": 64,
+          "drained": 19
         },
         "avg_stress": null,
-        "resting_hr": null
+        "resting_hr": 50.0
       },
       "activities": []
     },
@@ -31388,25 +31388,25 @@
       "wellness": {
         "date": "2026-08-03",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 71,
+          "duration_hrs": 5.83,
+          "deep_hrs": 1.18,
+          "rem_hrs": 1.1,
+          "light_hrs": 3.55,
+          "awake_hrs": 0.03
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 58,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 93,
+          "status": "BALANCED"
         },
         "body_battery": {
-          "charged": null,
-          "drained": null
+          "charged": 41,
+          "drained": 44
         },
         "avg_stress": null,
-        "resting_hr": null
+        "resting_hr": 56.0
       },
       "activities": []
     }

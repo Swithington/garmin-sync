@@ -31510,11 +31510,11 @@
           "status": "UNBALANCED"
         },
         "body_battery": {
-          "charged": null,
-          "drained": null
+          "charged": 0,
+          "drained": 0
         },
         "avg_stress": null,
-        "resting_hr": null
+        "resting_hr": 87.0
       },
       "activities": []
     }

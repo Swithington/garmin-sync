@@ -31511,10 +31511,10 @@
         },
         "body_battery": {
           "charged": 0,
-          "drained": 44
+          "drained": 50
         },
         "avg_stress": null,
-        "resting_hr": 58.0
+        "resting_hr": 57.0
       },
       "activities": []
     }

@@ -31550,18 +31550,18 @@
       "wellness": {
         "date": "2026-08-09",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 46,
+          "duration_hrs": 4.87,
+          "deep_hrs": 1.5,
+          "rem_hrs": 0.32,
+          "light_hrs": 3.05,
+          "awake_hrs": 0.02
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 49,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 65,
+          "status": "LOW"
         },
         "body_battery": {
           "charged": 20,

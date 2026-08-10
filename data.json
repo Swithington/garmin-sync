@@ -31564,11 +31564,11 @@
           "status": "LOW"
         },
         "body_battery": {
-          "charged": 20,
+          "charged": 22,
           "drained": 20
         },
         "avg_stress": null,
-        "resting_hr": 59.0
+        "resting_hr": 60.0
       },
       "activities": []
     },
@@ -31577,25 +31577,25 @@
       "wellness": {
         "date": "2026-08-10",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 40,
+          "duration_hrs": 3.22,
+          "deep_hrs": 0.77,
+          "rem_hrs": 0.17,
+          "light_hrs": 2.28,
+          "awake_hrs": 0.03
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 49,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 91,
+          "status": "LOW"
         },
         "body_battery": {
-          "charged": 0,
-          "drained": 0
+          "charged": 38,
+          "drained": 9
         },
         "avg_stress": null,
-        "resting_hr": 60.0
+        "resting_hr": 58.0
       },
       "activities": []
     }

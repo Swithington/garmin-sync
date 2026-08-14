@@ -10,7 +10,6 @@ import json
 import urllib.request
 import urllib.parse
 import logging
-import pickle
 from datetime import date, timedelta
 from garminconnect import Garmin
 
@@ -55,49 +54,11 @@ def decimal_mins_to_mmss(value):
 # -- Garmin Auth --------------------------------------------------------------
 
 def get_garmin_client():
-    os.makedirs(TOKEN_DIR, exist_ok=True)
-    token_file  = os.path.join(TOKEN_DIR, "oauth2_token.json")
-    pickle_file = os.path.join(TOKEN_DIR, "session.pkl")
-
-    client = Garmin(email=GARMIN_EMAIL, password=GARMIN_PASSWORD)
-
-    if os.path.exists(token_file):
-        try:
-            client.login(token_file)
-            client.get_user_summary(date.today().isoformat())
-            print("Session resumed from token cache")
-            return client
-        except Exception:
-            print("Token expired, logging in fresh...")
-            for f in [token_file, pickle_file]:
-                if os.path.exists(f):
-                    os.remove(f)
-
-    if os.path.exists(pickle_file):
-        try:
-            with open(pickle_file, "rb") as f:
-                client = pickle.load(f)
-            client.get_user_summary(date.today().isoformat())
-            print("Session resumed from pickle cache")
-            return client
-        except Exception:
-            print("Pickle expired, logging in fresh...")
-            if os.path.exists(pickle_file):
-                os.remove(pickle_file)
-
+    """Log in fresh each run — GitHub Actions has no persistent storage."""
     print("Logging in to Garmin Connect...")
     client = Garmin(email=GARMIN_EMAIL, password=GARMIN_PASSWORD)
     client.login()
     print("Login successful")
-
-    try:
-        tokenstore = client.garth.dumps()
-        with open(token_file, "w") as f:
-            f.write(tokenstore)
-    except AttributeError:
-        with open(pickle_file, "wb") as f:
-            pickle.dump(client, f)
-
     return client
 
 # -- Weather ------------------------------------------------------------------

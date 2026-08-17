@@ -32008,7 +32008,7 @@
         },
         "body_battery": {
           "charged": 30,
-          "drained": 6
+          "drained": 13
         },
         "avg_stress": null,
         "resting_hr": 58.0

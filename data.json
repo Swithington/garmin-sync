@@ -32061,11 +32061,11 @@
           "status": "LOW"
         },
         "body_battery": {
-          "charged": 19,
-          "drained": 7
+          "charged": 38,
+          "drained": 11
         },
         "avg_stress": null,
-        "resting_hr": 61.0
+        "resting_hr": 55.0
       },
       "activities": []
     }

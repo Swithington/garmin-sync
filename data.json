@@ -32088,7 +32088,7 @@
           "status": "LOW"
         },
         "body_battery": {
-          "charged": 37,
+          "charged": 50,
           "drained": 2
         },
         "avg_stress": null,

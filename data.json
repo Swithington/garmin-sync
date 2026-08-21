@@ -32115,11 +32115,11 @@
           "status": "LOW"
         },
         "body_battery": {
-          "charged": 27,
-          "drained": 11
+          "charged": 47,
+          "drained": 52
         },
         "avg_stress": null,
-        "resting_hr": 52.0
+        "resting_hr": 51.0
       },
       "activities": []
     }

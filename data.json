@@ -32142,11 +32142,11 @@
           "status": null
         },
         "body_battery": {
-          "charged": 0,
-          "drained": 4
+          "charged": 79,
+          "drained": 6
         },
         "avg_stress": null,
-        "resting_hr": 60.0
+        "resting_hr": 50.0
       },
       "activities": []
     }

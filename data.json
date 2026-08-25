@@ -32320,11 +32320,11 @@
           "status": null
         },
         "body_battery": {
-          "charged": 0,
-          "drained": 3
+          "charged": 71,
+          "drained": 10
         },
         "avg_stress": null,
-        "resting_hr": 56.0
+        "resting_hr": 50.0
       },
       "activities": []
     }

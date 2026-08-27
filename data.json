@@ -32471,13 +32471,55 @@
           "status": "BALANCED"
         },
         "body_battery": {
-          "charged": null,
-          "drained": null
+          "charged": 0,
+          "drained": 15
         },
         "avg_stress": null,
-        "resting_hr": null
+        "resting_hr": 55.0
       },
-      "activities": []
+      "activities": [
+        {
+          "activity_id": 24140057534,
+          "name": "Indoor Cycling",
+          "type": "indoor_cycling",
+          "distance_km": null,
+          "duration": "47:13",
+          "avg_hr": 166.0,
+          "max_hr": 196.0,
+          "avg_pace_min_km": "",
+          "elevation_gain_m": null,
+          "training_effect": 4.199999809265137,
+          "vo2max": null,
+          "calories": 597.0,
+          "hr_drift_pct": null,
+          "hr_zones": {
+            "zone_1_mins": 1.7,
+            "zone_2_mins": 2.1,
+            "zone_3_mins": 12.3,
+            "zone_4_mins": 20.0,
+            "zone_5_mins": 9.8
+          },
+          "weather": {
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": null,
+              "duration": "47:13",
+              "pace_min_km": null,
+              "avg_hr": 166.0,
+              "max_hr": 196.0,
+              "avg_cadence": null,
+              "elevation_gain": null
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -32472,12 +32472,86 @@
         },
         "body_battery": {
           "charged": 0,
-          "drained": 15
+          "drained": 21
         },
         "avg_stress": null,
         "resting_hr": 55.0
       },
       "activities": [
+        {
+          "activity_id": 24140644849,
+          "name": "Lambeth Running",
+          "type": "running",
+          "distance_km": 3.61,
+          "duration": "23:01",
+          "avg_hr": 164.0,
+          "max_hr": 175.0,
+          "avg_pace_min_km": "6:22",
+          "elevation_gain_m": 48.74698352813721,
+          "training_effect": 3.0999999046325684,
+          "vo2max": 49.0,
+          "calories": 295.0,
+          "hr_drift_pct": 0.0,
+          "hr_zones": {
+            "zone_1_mins": 0.2,
+            "zone_2_mins": 0.7,
+            "zone_3_mins": 5.6,
+            "zone_4_mins": 16.4,
+            "zone_5_mins": 0.0
+          },
+          "weather": {
+            "temp_c": 21.0,
+            "humidity_pct": 80,
+            "wind_kph": 6.3,
+            "weather_desc": "Overcast"
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:32",
+              "pace_min_km": "6:32",
+              "avg_hr": 155.0,
+              "max_hr": 170.0,
+              "avg_cadence": 157.078125,
+              "elevation_gain": 5.98
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:19",
+              "pace_min_km": "6:19",
+              "avg_hr": 166.0,
+              "max_hr": 173.0,
+              "avg_cadence": 167.171875,
+              "elevation_gain": 24.86
+            },
+            {
+              "split_number": 3,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:11",
+              "pace_min_km": "6:11",
+              "avg_hr": 170.0,
+              "max_hr": 175.0,
+              "avg_cadence": 168.828125,
+              "elevation_gain": 5.71
+            },
+            {
+              "split_number": 4,
+              "split_type": "lap",
+              "distance_km": 0.611,
+              "duration": "3:59",
+              "pace_min_km": "6:31",
+              "avg_hr": 168.0,
+              "max_hr": 172.0,
+              "avg_cadence": 167.03125,
+              "elevation_gain": 12.19
+            }
+          ]
+        },
         {
           "activity_id": 24140057534,
           "name": "Indoor Cycling",

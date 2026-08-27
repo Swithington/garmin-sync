@@ -32445,7 +32445,7 @@
         },
         "body_battery": {
           "charged": 28,
-          "drained": 29
+          "drained": 53
         },
         "avg_stress": null,
         "resting_hr": 55.0
@@ -32465,10 +32465,10 @@
           "awake_hrs": null
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 57,
           "last_night": null,
           "5min_high": null,
-          "status": null
+          "status": "BALANCED"
         },
         "body_battery": {
           "charged": null,

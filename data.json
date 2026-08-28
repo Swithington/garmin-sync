@@ -32600,22 +32600,22 @@
       "wellness": {
         "date": "2026-08-28",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 78,
+          "duration_hrs": 7.14,
+          "deep_hrs": 0.73,
+          "rem_hrs": 1.72,
+          "light_hrs": 4.7,
+          "awake_hrs": 0.2
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 54,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 67,
+          "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 19,
-          "drained": 0
+          "charged": 48,
+          "drained": 19
         },
         "avg_stress": null,
         "resting_hr": 55.0

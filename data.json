@@ -32627,21 +32627,21 @@
       "wellness": {
         "date": "2026-08-29",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 66,
+          "duration_hrs": 5.47,
+          "deep_hrs": 1.1,
+          "rem_hrs": 0.53,
+          "light_hrs": 3.83,
+          "awake_hrs": 0.0
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 53,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 84,
+          "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 0,
+          "charged": 34,
           "drained": 7
         },
         "avg_stress": null,

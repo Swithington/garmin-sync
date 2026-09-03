@@ -32770,10 +32770,10 @@
           "awake_hrs": null
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 52,
           "last_night": null,
           "5min_high": null,
-          "status": null
+          "status": "UNBALANCED"
         },
         "body_battery": {
           "charged": 0,

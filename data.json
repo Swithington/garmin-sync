@@ -32830,7 +32830,7 @@
           "status": null
         },
         "body_battery": {
-          "charged": 0,
+          "charged": 31,
           "drained": 0
         },
         "avg_stress": null,

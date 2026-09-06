@@ -33010,12 +33010,142 @@
         },
         "body_battery": {
           "charged": 64,
-          "drained": 0
+          "drained": 43
         },
         "avg_stress": null,
         "resting_hr": 59.0
       },
-      "activities": []
+      "activities": [
+        {
+          "activity_id": 24264401387,
+          "name": "Wandsworth - 5 x 1k",
+          "type": "running",
+          "distance_km": 5.39,
+          "duration": "30:24",
+          "avg_hr": 173.0,
+          "max_hr": 198.0,
+          "avg_pace_min_km": "5:38",
+          "elevation_gain_m": 74.1742411851883,
+          "training_effect": 3.9000000953674316,
+          "vo2max": 49.0,
+          "calories": 414.0,
+          "hr_drift_pct": 7.5,
+          "hr_zones": {
+            "zone_1_mins": 0.2,
+            "zone_2_mins": 0.4,
+            "zone_3_mins": 11.4,
+            "zone_4_mins": 7.5,
+            "zone_5_mins": 10.9
+          },
+          "weather": {
+            "temp_c": 21.6,
+            "humidity_pct": 57,
+            "wind_kph": 8.8,
+            "weather_desc": "Mainly clear"
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:26",
+              "pace_min_km": "6:26",
+              "avg_hr": 154.0,
+              "max_hr": 165.0,
+              "avg_cadence": 158.703125,
+              "elevation_gain": 19.92
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:40",
+              "pace_min_km": "6:40",
+              "avg_hr": 163.0,
+              "max_hr": 171.0,
+              "avg_cadence": 162.46875,
+              "elevation_gain": 12.66
+            },
+            {
+              "split_number": 3,
+              "split_type": "lap",
+              "distance_km": 0.005,
+              "duration": "0:02",
+              "pace_min_km": "8:28",
+              "avg_hr": 166.0,
+              "max_hr": 166.0,
+              "avg_cadence": 161.0,
+              "elevation_gain": 0.0
+            },
+            {
+              "split_number": 4,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "4:43",
+              "pace_min_km": "4:43",
+              "avg_hr": 183.0,
+              "max_hr": 192.0,
+              "avg_cadence": 174.734375,
+              "elevation_gain": 11.8
+            },
+            {
+              "split_number": 5,
+              "split_type": "lap",
+              "distance_km": 0.197,
+              "duration": "1:30",
+              "pace_min_km": "7:36",
+              "avg_hr": 178.0,
+              "max_hr": 190.0,
+              "avg_cadence": 162.90625,
+              "elevation_gain": 3.55
+            },
+            {
+              "split_number": 6,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "4:30",
+              "pace_min_km": "4:30",
+              "avg_hr": 189.0,
+              "max_hr": 198.0,
+              "avg_cadence": 178.21875,
+              "elevation_gain": 12.02
+            },
+            {
+              "split_number": 7,
+              "split_type": "lap",
+              "distance_km": 0.168,
+              "duration": "1:30",
+              "pace_min_km": "8:56",
+              "avg_hr": 177.0,
+              "max_hr": 197.0,
+              "avg_cadence": 123.28125,
+              "elevation_gain": 5.56
+            },
+            {
+              "split_number": 8,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "4:57",
+              "pace_min_km": "4:57",
+              "avg_hr": 184.0,
+              "max_hr": 193.0,
+              "avg_cadence": 172.046875,
+              "elevation_gain": 8.66
+            },
+            {
+              "split_number": 9,
+              "split_type": "lap",
+              "distance_km": 0.017,
+              "duration": "0:06",
+              "pace_min_km": "5:50",
+              "avg_hr": 190.0,
+              "max_hr": 190.0,
+              "avg_cadence": 171.328125,
+              "elevation_gain": 0.0
+            }
+          ]
+        }
+      ]
     }
   }
 }

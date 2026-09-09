@@ -33249,9 +33249,9 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 11.5,
-            "humidity_pct": 85,
-            "wind_kph": 12.8,
+            "temp_c": 11.8,
+            "humidity_pct": 82,
+            "wind_kph": 13.4,
             "weather_desc": "Clear"
           },
           "splits": [

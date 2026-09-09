@@ -33441,10 +33441,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 11.8,
-            "humidity_pct": 82,
-            "wind_kph": 13.4,
-            "weather_desc": "Clear"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {

@@ -33250,9 +33250,9 @@
           },
           "weather": {
             "temp_c": 17.9,
-            "humidity_pct": 58,
-            "wind_kph": 7.2,
-            "weather_desc": "Partly cloudy"
+            "humidity_pct": 57,
+            "wind_kph": 5.9,
+            "weather_desc": "Overcast"
           },
           "splits": [
             {
@@ -33356,9 +33356,9 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 18.2,
-            "humidity_pct": 57,
-            "wind_kph": 8.1,
+            "temp_c": 18.4,
+            "humidity_pct": 55,
+            "wind_kph": 7.8,
             "weather_desc": "Overcast"
           },
           "splits": [

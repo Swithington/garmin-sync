@@ -33798,10 +33798,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 21.0,
-            "humidity_pct": 82,
-            "wind_kph": 9.0,
-            "weather_desc": "Drizzle"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -33871,8 +33871,8 @@
           "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 63,
-          "drained": 72
+          "charged": 65,
+          "drained": 86
         },
         "avg_stress": null,
         "resting_hr": 50.0
@@ -33900,10 +33900,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 23.9,
+            "humidity_pct": 68,
+            "wind_kph": 14.1,
+            "weather_desc": "Mainly clear"
           },
           "splits": [
             {
@@ -34055,25 +34055,25 @@
       "wellness": {
         "date": "2026-09-15",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 74,
+          "duration_hrs": 6.07,
+          "deep_hrs": 1.15,
+          "rem_hrs": 1.05,
+          "light_hrs": 3.87,
+          "awake_hrs": 0.02
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 57,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 78,
+          "status": "BALANCED"
         },
         "body_battery": {
-          "charged": null,
-          "drained": null
+          "charged": 60,
+          "drained": 7
         },
         "avg_stress": null,
-        "resting_hr": null
+        "resting_hr": 53.0
       },
       "activities": []
     }

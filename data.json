@@ -34097,7 +34097,7 @@
         },
         "body_battery": {
           "charged": 47,
-          "drained": 17
+          "drained": 29
         },
         "avg_stress": null,
         "resting_hr": 53.0
@@ -34125,9 +34125,9 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 11.7,
-            "humidity_pct": 92,
-            "wind_kph": 8.7,
+            "temp_c": 12.1,
+            "humidity_pct": 90,
+            "wind_kph": 9.0,
             "weather_desc": "Clear"
           },
           "splits": [

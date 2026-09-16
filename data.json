@@ -34097,12 +34097,64 @@
         },
         "body_battery": {
           "charged": 47,
-          "drained": 55
+          "drained": 60
         },
         "avg_stress": null,
         "resting_hr": 53.0
       },
       "activities": [
+        {
+          "activity_id": 24388672145,
+          "name": "Wandsworth Running",
+          "type": "running",
+          "distance_km": 1.01,
+          "duration": "6:48",
+          "avg_hr": 150.0,
+          "max_hr": 161.0,
+          "avg_pace_min_km": "6:44",
+          "elevation_gain_m": 12.52022099494934,
+          "training_effect": 1.5,
+          "vo2max": 50.0,
+          "calories": 81.0,
+          "hr_drift_pct": 0.7,
+          "hr_zones": {
+            "zone_1_mins": 0.1,
+            "zone_2_mins": 1.0,
+            "zone_3_mins": 5.6,
+            "zone_4_mins": 0.0,
+            "zone_5_mins": 0.0
+          },
+          "weather": {
+            "temp_c": 16.0,
+            "humidity_pct": 66,
+            "wind_kph": 13.1,
+            "weather_desc": "Overcast"
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:44",
+              "pace_min_km": "6:44",
+              "avg_hr": 150.0,
+              "max_hr": 161.0,
+              "avg_cadence": 158.015625,
+              "elevation_gain": 12.52
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 0.01,
+              "duration": "0:04",
+              "pace_min_km": "6:29",
+              "avg_hr": 160.0,
+              "max_hr": 160.0,
+              "avg_cadence": 166.0,
+              "elevation_gain": 0.0
+            }
+          ]
+        },
         {
           "activity_id": 24385925951,
           "name": "Hillingdon Running",
@@ -34126,9 +34178,9 @@
           },
           "weather": {
             "temp_c": 19.0,
-            "humidity_pct": 48,
-            "wind_kph": 13.5,
-            "weather_desc": "Overcast"
+            "humidity_pct": 50,
+            "wind_kph": 12.5,
+            "weather_desc": "Mainly clear"
           },
           "splits": [
             {
@@ -34210,10 +34262,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 12.1,
-            "humidity_pct": 90,
-            "wind_kph": 9.0,
-            "weather_desc": "Clear"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {

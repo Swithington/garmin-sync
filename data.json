@@ -34487,7 +34487,7 @@
         },
         "body_battery": {
           "charged": 69,
-          "drained": 2
+          "drained": 58
         },
         "avg_stress": null,
         "resting_hr": 47.0
@@ -34615,13 +34615,99 @@
           "status": "BALANCED"
         },
         "body_battery": {
-          "charged": null,
-          "drained": null
+          "charged": 0,
+          "drained": 17
         },
         "avg_stress": null,
-        "resting_hr": null
+        "resting_hr": 55.0
       },
-      "activities": []
+      "activities": [
+        {
+          "activity_id": 24440006464,
+          "name": "Hillingdon Running",
+          "type": "running",
+          "distance_km": 4.58,
+          "duration": "24:23",
+          "avg_hr": 171.0,
+          "max_hr": 187.0,
+          "avg_pace_min_km": "5:20",
+          "elevation_gain_m": 36.101749420166016,
+          "training_effect": 3.4000000953674316,
+          "vo2max": 50.0,
+          "calories": 339.0,
+          "hr_drift_pct": 0.0,
+          "hr_zones": {
+            "zone_1_mins": 0.9,
+            "zone_2_mins": 3.1,
+            "zone_3_mins": 0.6,
+            "zone_4_mins": 18.5,
+            "zone_5_mins": 1.2
+          },
+          "weather": {
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "5:52",
+              "pace_min_km": "5:52",
+              "avg_hr": 140.0,
+              "max_hr": 178.0,
+              "avg_cadence": 161.046875,
+              "elevation_gain": 5.62
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "5:10",
+              "pace_min_km": "5:10",
+              "avg_hr": 180.0,
+              "max_hr": 182.0,
+              "avg_cadence": 172.40625,
+              "elevation_gain": 7.2
+            },
+            {
+              "split_number": 3,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "5:19",
+              "pace_min_km": "5:19",
+              "avg_hr": 182.0,
+              "max_hr": 186.0,
+              "avg_cadence": 172.46875,
+              "elevation_gain": 13.11
+            },
+            {
+              "split_number": 4,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "5:18",
+              "pace_min_km": "5:18",
+              "avg_hr": 178.0,
+              "max_hr": 183.0,
+              "avg_cadence": 168.5625,
+              "elevation_gain": 10.17
+            },
+            {
+              "split_number": 5,
+              "split_type": "lap",
+              "distance_km": 0.577,
+              "duration": "2:43",
+              "pace_min_km": "4:42",
+              "avg_hr": 182.0,
+              "max_hr": 187.0,
+              "avg_cadence": 173.390625,
+              "elevation_gain": 0.0
+            }
+          ]
+        }
+      ]
     }
   }
 }

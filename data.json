@@ -34492,7 +34492,82 @@
         "avg_stress": null,
         "resting_hr": 47.0
       },
-      "activities": []
+      "activities": [
+        {
+          "activity_id": 24439245686,
+          "name": "Wiltshire Running",
+          "type": "running",
+          "distance_km": 3.27,
+          "duration": "22:41",
+          "avg_hr": 147.0,
+          "max_hr": 167.0,
+          "avg_pace_min_km": "6:56",
+          "elevation_gain_m": 31.565933227539062,
+          "training_effect": 2.299999952316284,
+          "vo2max": 50.0,
+          "calories": 259.0,
+          "hr_drift_pct": 0.0,
+          "hr_zones": {
+            "zone_1_mins": 0.0,
+            "zone_2_mins": 5.1,
+            "zone_3_mins": 16.6,
+            "zone_4_mins": 0.4,
+            "zone_5_mins": 0.0
+          },
+          "weather": {
+            "temp_c": 18.8,
+            "humidity_pct": 93,
+            "wind_kph": 21.7,
+            "weather_desc": "Drizzle"
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "7:16",
+              "pace_min_km": "7:16",
+              "avg_hr": 144.0,
+              "max_hr": 167.0,
+              "avg_cadence": 159.34375,
+              "elevation_gain": 23.99
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:56",
+              "pace_min_km": "6:56",
+              "avg_hr": 150.0,
+              "max_hr": 166.0,
+              "avg_cadence": 163.234375,
+              "elevation_gain": 5.99
+            },
+            {
+              "split_number": 3,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:45",
+              "pace_min_km": "6:45",
+              "avg_hr": 146.0,
+              "max_hr": 155.0,
+              "avg_cadence": 161.171875,
+              "elevation_gain": 1.59
+            },
+            {
+              "split_number": 4,
+              "split_type": "lap",
+              "distance_km": 0.267,
+              "duration": "1:44",
+              "pace_min_km": "6:28",
+              "avg_hr": 150.0,
+              "max_hr": 164.0,
+              "avg_cadence": 164.28125,
+              "elevation_gain": 0.0
+            }
+          ]
+        }
+      ]
     },
     "2026-09-20": {
       "date": "2026-09-20",
@@ -34507,10 +34582,10 @@
           "awake_hrs": null
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 63,
           "last_night": null,
           "5min_high": null,
-          "status": null
+          "status": "BALANCED"
         },
         "body_battery": {
           "charged": null,
@@ -34534,10 +34609,10 @@
           "awake_hrs": null
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 64,
           "last_night": null,
           "5min_high": null,
-          "status": null
+          "status": "BALANCED"
         },
         "body_battery": {
           "charged": null,

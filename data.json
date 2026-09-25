@@ -35052,25 +35052,25 @@
       "wellness": {
         "date": "2026-09-25",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 52,
+          "duration_hrs": 4.03,
+          "deep_hrs": 0.85,
+          "rem_hrs": 0.5,
+          "light_hrs": 2.68,
+          "awake_hrs": 0.0
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 59,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 93,
+          "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 0,
-          "drained": 3
+          "charged": 41,
+          "drained": 7
         },
         "avg_stress": null,
-        "resting_hr": 57.0
+        "resting_hr": 51.0
       },
       "activities": []
     }

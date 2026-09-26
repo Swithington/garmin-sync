@@ -34955,10 +34955,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 15.7,
-            "humidity_pct": 89,
-            "wind_kph": 5.2,
-            "weather_desc": "Overcast"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {

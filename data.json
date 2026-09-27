@@ -35180,10 +35180,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 12.5,
+            "humidity_pct": 99,
+            "wind_kph": 4.5,
+            "weather_desc": "Overcast"
           },
           "splits": [
             {
@@ -35406,10 +35406,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 18.6,
-            "humidity_pct": 74,
-            "wind_kph": 11.2,
-            "weather_desc": "Partly cloudy"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {

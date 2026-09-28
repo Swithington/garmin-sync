@@ -35293,10 +35293,10 @@
             "zone_5_mins": 5.9
           },
           "weather": {
-            "temp_c": 13.4,
-            "humidity_pct": 75,
-            "wind_kph": 3.5,
-            "weather_desc": "Overcast"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -35586,25 +35586,25 @@
       "wellness": {
         "date": "2026-09-28",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 77,
+          "duration_hrs": 6.7,
+          "deep_hrs": 0.82,
+          "rem_hrs": 1.88,
+          "light_hrs": 4.0,
+          "awake_hrs": 0.05
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 56,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 79,
+          "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 7,
-          "drained": 2
+          "charged": 57,
+          "drained": 4
         },
         "avg_stress": null,
-        "resting_hr": 57.0
+        "resting_hr": 56.0
       },
       "activities": []
     }

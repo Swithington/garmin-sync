@@ -35406,10 +35406,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 18.5,
-            "humidity_pct": 75,
-            "wind_kph": 11.7,
-            "weather_desc": "Partly cloudy"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {

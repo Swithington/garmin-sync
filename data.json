@@ -35406,10 +35406,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 18.5,
+            "humidity_pct": 75,
+            "wind_kph": 11.7,
+            "weather_desc": "Partly cloudy"
           },
           "splits": [
             {
@@ -35628,7 +35628,7 @@
         },
         "body_battery": {
           "charged": 53,
-          "drained": 46
+          "drained": 75
         },
         "avg_stress": null,
         "resting_hr": 52.0

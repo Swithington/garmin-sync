@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated_at": "2026-10-01",
-    "total_days": 443,
+    "updated_at": "2026-10-02",
+    "total_days": 444,
     "first_date": "2025-07-16",
-    "last_date": "2026-10-01"
+    "last_date": "2026-10-02"
   },
   "days": {
     "2025-07-16": {
@@ -35683,6 +35683,33 @@
         "body_battery": {
           "charged": 60,
           "drained": 54
+        },
+        "avg_stress": null,
+        "resting_hr": 54.0
+      },
+      "activities": []
+    },
+    "2026-10-02": {
+      "date": "2026-10-02",
+      "wellness": {
+        "date": "2026-10-02",
+        "sleep": {
+          "score": null,
+          "duration_hrs": null,
+          "deep_hrs": null,
+          "rem_hrs": null,
+          "light_hrs": null,
+          "awake_hrs": null
+        },
+        "hrv": {
+          "weekly_avg": null,
+          "last_night": null,
+          "5min_high": null,
+          "status": null
+        },
+        "body_battery": {
+          "charged": 22,
+          "drained": 4
         },
         "avg_stress": null,
         "resting_hr": 54.0

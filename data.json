@@ -35792,8 +35792,8 @@
           },
           "weather": {
             "temp_c": 13.1,
-            "humidity_pct": 89,
-            "wind_kph": 21.1,
+            "humidity_pct": 90,
+            "wind_kph": 21.9,
             "weather_desc": "Overcast"
           },
           "splits": [

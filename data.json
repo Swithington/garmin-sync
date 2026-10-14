@@ -36452,10 +36452,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 17.3,
-            "humidity_pct": 91,
-            "wind_kph": 14.7,
-            "weather_desc": "Overcast"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -36819,8 +36819,8 @@
           "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 67,
-          "drained": 18
+          "charged": 68,
+          "drained": 44
         },
         "avg_stress": null,
         "resting_hr": 53.0
@@ -36848,10 +36848,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 9.0,
+            "humidity_pct": 95,
+            "wind_kph": 4.2,
+            "weather_desc": "Partly cloudy"
           },
           "splits": [
             {

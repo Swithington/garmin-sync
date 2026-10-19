@@ -37239,27 +37239,113 @@
       "wellness": {
         "date": "2026-10-19",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 75,
+          "duration_hrs": 6.38,
+          "deep_hrs": 0.83,
+          "rem_hrs": 0.73,
+          "light_hrs": 4.82,
+          "awake_hrs": 0.02
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 53,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 81,
+          "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 0,
-          "drained": 0
+          "charged": 40,
+          "drained": 18
         },
         "avg_stress": null,
-        "resting_hr": 59.0
+        "resting_hr": 58.0
       },
-      "activities": []
+      "activities": [
+        {
+          "activity_id": 24775513185,
+          "name": "Hillingdon Running",
+          "type": "running",
+          "distance_km": 4.69,
+          "duration": "27:49",
+          "avg_hr": 164.0,
+          "max_hr": 184.0,
+          "avg_pace_min_km": "5:56",
+          "elevation_gain_m": 41.128374099731445,
+          "training_effect": 3.200000047683716,
+          "vo2max": 51.0,
+          "calories": 375.0,
+          "hr_drift_pct": 0.6,
+          "hr_zones": {
+            "zone_1_mins": 0.2,
+            "zone_2_mins": 1.0,
+            "zone_3_mins": 9.1,
+            "zone_4_mins": 16.7,
+            "zone_5_mins": 0.4
+          },
+          "weather": {
+            "temp_c": 7.7,
+            "humidity_pct": 97,
+            "wind_kph": 9.1,
+            "weather_desc": "Clear"
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:22",
+              "pace_min_km": "6:22",
+              "avg_hr": 147.0,
+              "max_hr": 163.0,
+              "avg_cadence": 160.890625,
+              "elevation_gain": 6.99
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:14",
+              "pace_min_km": "6:14",
+              "avg_hr": 163.0,
+              "max_hr": 177.0,
+              "avg_cadence": 164.96875,
+              "elevation_gain": 7.45
+            },
+            {
+              "split_number": 3,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:06",
+              "pace_min_km": "6:06",
+              "avg_hr": 171.0,
+              "max_hr": 176.0,
+              "avg_cadence": 168.6875,
+              "elevation_gain": 12.52
+            },
+            {
+              "split_number": 4,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "5:41",
+              "pace_min_km": "5:41",
+              "avg_hr": 168.0,
+              "max_hr": 178.0,
+              "avg_cadence": 167.796875,
+              "elevation_gain": 9.95
+            },
+            {
+              "split_number": 5,
+              "split_type": "lap",
+              "distance_km": 0.688,
+              "duration": "3:26",
+              "pace_min_km": "5:00",
+              "avg_hr": 180.0,
+              "max_hr": 184.0,
+              "avg_cadence": 170.640625,
+              "elevation_gain": 4.23
+            }
+          ]
+        }
+      ]
     }
   }
 }

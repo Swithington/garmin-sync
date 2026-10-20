@@ -37282,10 +37282,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 12.8,
+            "humidity_pct": 67,
+            "wind_kph": 8.6,
+            "weather_desc": "Clear"
           },
           "splits": [
             {
@@ -37367,10 +37367,10 @@
             "zone_5_mins": 0.4
           },
           "weather": {
-            "temp_c": 8.3,
-            "humidity_pct": 97,
-            "wind_kph": 8.2,
-            "weather_desc": "Clear"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -37452,12 +37452,75 @@
         },
         "body_battery": {
           "charged": 56,
-          "drained": 27
+          "drained": 50
         },
         "avg_stress": null,
         "resting_hr": 56.0
       },
       "activities": [
+        {
+          "activity_id": 24793068143,
+          "name": "Hillingdon Running",
+          "type": "running",
+          "distance_km": 2.81,
+          "duration": "17:07",
+          "avg_hr": 149.0,
+          "max_hr": 168.0,
+          "avg_pace_min_km": "6:05",
+          "elevation_gain_m": 10.139348983764648,
+          "training_effect": 2.5,
+          "vo2max": 51.0,
+          "calories": 217.0,
+          "hr_drift_pct": 0.0,
+          "hr_zones": {
+            "zone_1_mins": 0.1,
+            "zone_2_mins": 0.9,
+            "zone_3_mins": 14.7,
+            "zone_4_mins": 0.9,
+            "zone_5_mins": 0.0
+          },
+          "weather": {
+            "temp_c": 11.8,
+            "humidity_pct": 96,
+            "wind_kph": 5.8,
+            "weather_desc": "Drizzle"
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:11",
+              "pace_min_km": "6:11",
+              "avg_hr": 141.0,
+              "max_hr": 154.0,
+              "avg_cadence": 162.46875,
+              "elevation_gain": 0.0
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:05",
+              "pace_min_km": "6:05",
+              "avg_hr": 153.0,
+              "max_hr": 163.0,
+              "avg_cadence": 168.625,
+              "elevation_gain": 7.75
+            },
+            {
+              "split_number": 3,
+              "split_type": "lap",
+              "distance_km": 0.814,
+              "duration": "4:51",
+              "pace_min_km": "5:58",
+              "avg_hr": 154.0,
+              "max_hr": 168.0,
+              "avg_cadence": 167.3125,
+              "elevation_gain": 2.39
+            }
+          ]
+        },
         {
           "activity_id": 24787692401,
           "name": "Hillingdon Running",

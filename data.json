@@ -37282,10 +37282,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 12.8,
-            "humidity_pct": 67,
-            "wind_kph": 8.6,
-            "weather_desc": "Clear"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -37367,10 +37367,10 @@
             "zone_5_mins": 0.4
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 8.3,
+            "humidity_pct": 97,
+            "wind_kph": 8.2,
+            "weather_desc": "Clear"
           },
           "splits": [
             {
@@ -37480,9 +37480,9 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 11.8,
-            "humidity_pct": 96,
-            "wind_kph": 5.8,
+            "temp_c": 11.9,
+            "humidity_pct": 95,
+            "wind_kph": 3.5,
             "weather_desc": "Drizzle"
           },
           "splits": [

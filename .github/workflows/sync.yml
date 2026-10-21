@@ -34,7 +34,7 @@ jobs:
       # Per-second GPS goes to gps/, separate from data.json so regular analysis stays small.
       # Runs at 06/12/18/22 UTC and on manual trigger (limits extra Garmin logins).
       # continue-on-error: a GPS/rate-limit failure never blocks the data.json sync.
-      - name: Fetch per-second GPS
+      - name: Fetch per-second GPS and personal bests
         continue-on-error: true
         env:
           GARMIN_EMAIL:    ${{ secrets.GARMIN_EMAIL }}
@@ -43,9 +43,12 @@ jobs:
         run: |
           H=$(date -u +%H)
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || echo "06 12 18 22" | grep -qw "$H"; then
-            python fetch_gps.py
+            gps=0; pbs=0
+            python fetch_gps.py || gps=1
+            python fetch_pbs.py || pbs=1
+            exit $(( gps || pbs ))
           else
-            echo "Skipping GPS fetch at hour $H UTC"
+            echo "Skipping GPS/PB fetch at hour $H UTC"
           fi
 
       - name: Commit and push data
@@ -54,5 +57,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
           if [ -d gps ]; then git add gps/; fi
+          for f in pbs.json pb_history.csv; do if [ -f "$f" ]; then git add "$f"; fi; done
           git diff --staged --quiet || git commit -m "chore: update garmin data $(date -u +%Y-%m-%d)"
           git pull --rebase && git push

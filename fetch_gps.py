@@ -75,7 +75,7 @@ def points_from_details(details):
             round(lat, 6), round(lon, 6),
             "" if get(m, "elev") is None else round(get(m, "elev"), 1),
             "" if get(m, "hr") is None else round(get(m, "hr")),
-            "" if get(m, "cad") is None else round(get(m, "cad")),
+            "" if get(m, "cad") is None else round(get(m, "cad") * 2),  # Garmin stream is per-foot; x2 = steps/min
             "" if spd is None else round(spd, 2),
             pace,
         ])

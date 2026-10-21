@@ -2,8 +2,14 @@ name: Garmin Sync
 
 on:
   schedule:
-    - cron: '0 * * * *'   # runs hourly
+    - cron: '0 * * * *'   # on the hour: full sync (wellness + activities) + GPS/PB at set hours
+    - cron: '30 * * * *'  # half past: activities only (no wellness refresh)
   workflow_dispatch:        # allows manual trigger from GitHub UI
+
+# Never let two runs overlap (avoids simultaneous Garmin logins and push conflicts)
+concurrency:
+  group: garmin-sync
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -29,10 +35,11 @@ jobs:
           GARMIN_EMAIL:    ${{ secrets.GARMIN_EMAIL }}
           GARMIN_PASSWORD: ${{ secrets.GARMIN_PASSWORD }}
           DAYS_TO_SYNC:    365
+          SYNC_MODE:       ${{ github.event.schedule == '30 * * * *' && 'activities' || 'full' }}
         run: python fetch_garmin.py
 
       # Per-second GPS goes to gps/, separate from data.json so regular analysis stays small.
-      # Runs at 06/12/18/22 UTC and on manual trigger (limits extra Garmin logins).
+      # Runs on the hourly schedule at 06/12/18/22 UTC and on manual trigger (limits extra Garmin logins).
       # continue-on-error: a GPS/rate-limit failure never blocks the data.json sync.
       - name: Fetch per-second GPS and personal bests
         continue-on-error: true
@@ -42,7 +49,7 @@ jobs:
           GPS_DAYS:        90
         run: |
           H=$(date -u +%H)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || echo "06 12 18 22" | grep -qw "$H"; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "${{ github.event.schedule }}" = "0 * * * *" ] && echo "06 12 18 22" | grep -qw "$H"; }; then
             gps=0; pbs=0
             python fetch_gps.py || gps=1
             python fetch_pbs.py || pbs=1

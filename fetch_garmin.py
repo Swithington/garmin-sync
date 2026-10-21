@@ -21,6 +21,9 @@ GARMIN_EMAIL    = os.environ["GARMIN_EMAIL"]
 GARMIN_PASSWORD = os.environ["GARMIN_PASSWORD"]
 DAYS_TO_SYNC    = int(os.environ.get("DAYS_TO_SYNC", 365))
 REFRESH_DAYS    = 7        # always re-fetch last N days to catch late syncs
+# "full" = wellness + activities for the last REFRESH_DAYS (hourly run)
+# "activities" = only today/yesterday activities, wellness kept as stored (half-hourly run)
+SYNC_MODE       = os.environ.get("SYNC_MODE", "full")
 OUTPUT_FILE     = "data.json"
 TOKEN_DIR       = os.path.expanduser("~/.garminconnect")
 
@@ -195,12 +198,18 @@ def fetch_hr_drift(detail):
         pass
     return None
 
-def fetch_activities(client, date_str):
+def fetch_activities(client, date_str, known=None):
+    """known: {activity_id: stored entry}. Stored activities are reused as-is,
+    which skips their detail/zones/splits/weather calls (used in 'activities' mode)."""
     activities = []
+    known = known or {}
     try:
         raw = client.get_activities_by_date(date_str, date_str)
         for a in raw:
             activity_id = a.get("activityId")
+            if activity_id in known:
+                activities.append(known[activity_id])
+                continue
             distance_m  = a.get("distance", 0) or 0
             duration_s  = a.get("duration", 0) or 0
             avg_speed   = a.get("averageSpeed", 0) or 0
@@ -309,6 +318,15 @@ def main():
     all_dates     = [(today - timedelta(days=i)).isoformat() for i in range(DAYS_TO_SYNC - 1, -1, -1)]
     dates_to_fetch = [d for d in all_dates if d not in days or d >= refresh_cutoff]
 
+    activities_only = SYNC_MODE == "activities"
+    if activities_only:
+        # Light run: today + yesterday (yesterday catches late watch syncs), plus any missing day
+        recent = {today.isoformat(), (today - timedelta(days=1)).isoformat()}
+        dates_to_fetch = [d for d in all_dates if d in recent or d not in days]
+        print(f"Mode: activities-only ({len(dates_to_fetch)} date(s))")
+    else:
+        print("Mode: full")
+
     if not dates_to_fetch:
         print("Nothing new to fetch")
         save(existing)
@@ -319,8 +337,16 @@ def main():
 
     for date_str in dates_to_fetch:
         print(f"  {date_str}...")
-        wellness   = fetch_wellness(client, date_str)
-        activities = fetch_activities(client, date_str)
+        stored = days.get(date_str)
+        if activities_only and stored and stored.get("wellness"):
+            wellness = stored["wellness"]          # keep hourly-refreshed wellness
+            known    = {a.get("activity_id"): a for a in stored.get("activities", [])}
+        else:
+            wellness = fetch_wellness(client, date_str)
+            known    = {}
+        activities = fetch_activities(client, date_str, known)
+        if activities_only and not activities and known:
+            activities = list(known.values())      # list call failed: never wipe stored activities
         days[date_str] = {
             "date":       date_str,
             "wellness":   wellness,

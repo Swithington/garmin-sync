@@ -1,0 +1,93 @@
+{
+ "updated_at": "2026-10-21",
+ "records": {
+  "fastest_1k": {
+   "value": 242.91099548339844,
+   "display": "4:03",
+   "activity_id": 22647082537,
+   "achieved_on": "2026-04-24",
+   "kind": "time"
+  },
+  "fastest_1mile": {
+   "value": 398.57598876953125,
+   "display": "6:39",
+   "activity_id": 22647082537,
+   "achieved_on": "2026-04-24",
+   "kind": "time"
+  },
+  "fastest_5k": {
+   "value": 1284.636962890625,
+   "display": "21:25",
+   "activity_id": 22647082537,
+   "achieved_on": "2026-04-24",
+   "kind": "time"
+  },
+  "fastest_10k": {
+   "value": 2794.422119140625,
+   "display": "46:34",
+   "activity_id": 24601125797,
+   "achieved_on": "2026-10-04",
+   "kind": "time"
+  },
+  "fastest_half_marathon": {
+   "value": 5940.841796875,
+   "display": "1:39:01",
+   "activity_id": 24601125797,
+   "achieved_on": "2026-10-04",
+   "kind": "time"
+  },
+  "fastest_marathon": {
+   "value": 15837.21875,
+   "display": "4:23:57",
+   "activity_id": 22996550245,
+   "achieved_on": "2026-05-24",
+   "kind": "time"
+  },
+  "longest_run": {
+   "value": 42575.140625,
+   "display": "42.58 km",
+   "activity_id": 22996550245,
+   "achieved_on": "2026-05-24",
+   "kind": "distance"
+  }
+ },
+ "biggest_week": {
+  "week_start": "2026-04-20",
+  "km": 61.4,
+  "kind": "volume"
+ },
+ "unmapped": [
+  {
+   "typeId": 8,
+   "value": 52699.640625
+  },
+  {
+   "typeId": 9,
+   "value": 578.0
+  },
+  {
+   "typeId": 10,
+   "value": 223.65666666666667
+  },
+  {
+   "typeId": 12,
+   "value": 52711.0
+  },
+  {
+   "typeId": 13,
+   "value": 138934.0
+  },
+  {
+   "typeId": 14,
+   "value": 489942.0
+  },
+  {
+   "typeId": 15,
+   "value": 9.0
+  },
+  {
+   "typeId": 16,
+   "value": 3.0
+  }
+ ]
+}

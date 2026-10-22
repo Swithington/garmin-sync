@@ -37864,7 +37864,126 @@
         "avg_stress": null,
         "resting_hr": 52.0
       },
-      "activities": []
+      "activities": [
+        {
+          "activity_id": 24818348470,
+          "name": "City of Westminster Running",
+          "type": "running",
+          "distance_km": 7.88,
+          "duration": "46:57",
+          "avg_hr": 165.0,
+          "max_hr": 185.0,
+          "avg_pace_min_km": "5:58",
+          "elevation_gain_m": 125.86342024803162,
+          "training_effect": 3.700000047683716,
+          "vo2max": 51.0,
+          "calories": 640.0,
+          "hr_drift_pct": 0.0,
+          "hr_zones": {
+            "zone_1_mins": 0.2,
+            "zone_2_mins": 0.5,
+            "zone_3_mins": 15.2,
+            "zone_4_mins": 29.8,
+            "zone_5_mins": 0.6
+          },
+          "weather": {
+            "temp_c": 11.5,
+            "humidity_pct": 75,
+            "wind_kph": 7.3,
+            "weather_desc": "Overcast"
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:05",
+              "pace_min_km": "6:05",
+              "avg_hr": 150.0,
+              "max_hr": 170.0,
+              "avg_cadence": 154.046875,
+              "elevation_gain": 7.74
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:15",
+              "pace_min_km": "6:15",
+              "avg_hr": 162.0,
+              "max_hr": 171.0,
+              "avg_cadence": 160.921875,
+              "elevation_gain": 11.61
+            },
+            {
+              "split_number": 3,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:01",
+              "pace_min_km": "6:01",
+              "avg_hr": 160.0,
+              "max_hr": 170.0,
+              "avg_cadence": 164.453125,
+              "elevation_gain": 12.96
+            },
+            {
+              "split_number": 4,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:09",
+              "pace_min_km": "6:09",
+              "avg_hr": 163.0,
+              "max_hr": 169.0,
+              "avg_cadence": 170.421875,
+              "elevation_gain": 31.88
+            },
+            {
+              "split_number": 5,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "5:52",
+              "pace_min_km": "5:52",
+              "avg_hr": 168.0,
+              "max_hr": 176.0,
+              "avg_cadence": 163.921875,
+              "elevation_gain": 16.23
+            },
+            {
+              "split_number": 6,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "5:37",
+              "pace_min_km": "5:37",
+              "avg_hr": 172.0,
+              "max_hr": 183.0,
+              "avg_cadence": 167.265625,
+              "elevation_gain": 11.66
+            },
+            {
+              "split_number": 7,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "5:15",
+              "pace_min_km": "5:15",
+              "avg_hr": 179.0,
+              "max_hr": 185.0,
+              "avg_cadence": 170.53125,
+              "elevation_gain": 22.02
+            },
+            {
+              "split_number": 8,
+              "split_type": "lap",
+              "distance_km": 0.882,
+              "duration": "5:41",
+              "pace_min_km": "6:27",
+              "avg_hr": 165.0,
+              "max_hr": 178.0,
+              "avg_cadence": 168.640625,
+              "elevation_gain": 11.76
+            }
+          ]
+        }
+      ]
     }
   }
 }

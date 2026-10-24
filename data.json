@@ -37887,10 +37887,10 @@
             "zone_5_mins": 0.6
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 11.5,
+            "humidity_pct": 77,
+            "wind_kph": 8.6,
+            "weather_desc": "Overcast"
           },
           "splits": [
             {
@@ -38129,7 +38129,7 @@
         },
         "body_battery": {
           "charged": 43,
-          "drained": 24
+          "drained": 43
         },
         "avg_stress": null,
         "resting_hr": 58.0

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27",
+ "updated_at": "2026-10-31",
  "records": {
   "fastest_1k": {
    "value": 242.91099548339844,
@@ -87,7 +87,7 @@
   },
   {
    "typeId": 16,
-   "value": 3.0
+   "value": 0.0
   }
  ]
 }

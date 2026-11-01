@@ -38211,10 +38211,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 15.3,
+            "humidity_pct": 91,
+            "wind_kph": 21.3,
+            "weather_desc": "Mainly clear"
           },
           "splits": [
             {
@@ -38274,10 +38274,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 9.3,
+            "humidity_pct": 83,
+            "wind_kph": 10.7,
+            "weather_desc": "Drizzle"
           },
           "splits": [
             {
@@ -38387,10 +38387,10 @@
             "zone_5_mins": 0.2
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 13.6,
+            "humidity_pct": 83,
+            "wind_kph": 16.0,
+            "weather_desc": "Overcast"
           },
           "splits": [
             {
@@ -38544,10 +38544,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 14.1,
+            "humidity_pct": 75,
+            "wind_kph": 9.6,
+            "weather_desc": "Overcast"
           },
           "splits": [
             {
@@ -38607,10 +38607,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 9.6,
+            "humidity_pct": 83,
+            "wind_kph": 13.0,
+            "weather_desc": "Mainly clear"
           },
           "splits": [
             {
@@ -38773,7 +38773,7 @@
         },
         "body_battery": {
           "charged": 55,
-          "drained": 3
+          "drained": 21
         },
         "avg_stress": null,
         "resting_hr": 56.0

@@ -38746,7 +38746,7 @@
         },
         "body_battery": {
           "charged": 25,
-          "drained": 15
+          "drained": 28
         },
         "avg_stress": null,
         "resting_hr": 59.0
@@ -38772,11 +38772,11 @@
           "status": null
         },
         "body_battery": {
-          "charged": null,
-          "drained": null
+          "charged": 0,
+          "drained": 3
         },
         "avg_stress": null,
-        "resting_hr": null
+        "resting_hr": 60.0
       },
       "activities": []
     }

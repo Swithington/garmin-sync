@@ -38211,10 +38211,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 15.3,
-            "humidity_pct": 91,
-            "wind_kph": 21.3,
-            "weather_desc": "Mainly clear"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -38274,10 +38274,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 9.3,
-            "humidity_pct": 83,
-            "wind_kph": 10.7,
-            "weather_desc": "Drizzle"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -38387,10 +38387,10 @@
             "zone_5_mins": 0.2
           },
           "weather": {
-            "temp_c": 13.6,
-            "humidity_pct": 83,
-            "wind_kph": 16.0,
-            "weather_desc": "Overcast"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -38544,10 +38544,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 14.1,
-            "humidity_pct": 75,
-            "wind_kph": 9.6,
-            "weather_desc": "Overcast"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -38607,10 +38607,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 9.6,
-            "humidity_pct": 83,
-            "wind_kph": 13.0,
-            "weather_desc": "Mainly clear"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -38758,25 +38758,25 @@
       "wellness": {
         "date": "2026-11-01",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 79,
+          "duration_hrs": 6.47,
+          "deep_hrs": 1.33,
+          "rem_hrs": 0.88,
+          "light_hrs": 4.25,
+          "awake_hrs": 0.02
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 54,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 88,
+          "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 0,
+          "charged": 55,
           "drained": 3
         },
         "avg_stress": null,
-        "resting_hr": 60.0
+        "resting_hr": 56.0
       },
       "activities": []
     }

@@ -39320,10 +39320,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 9.8,
+            "humidity_pct": 86,
+            "wind_kph": 3.1,
+            "weather_desc": "Overcast"
           },
           "splits": [
             {
@@ -39496,10 +39496,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 4.2,
-            "humidity_pct": 100,
-            "wind_kph": 0.7,
-            "weather_desc": "Overcast"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {
@@ -39753,25 +39753,25 @@
       "wellness": {
         "date": "2026-11-08",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 82,
+          "duration_hrs": 7.37,
+          "deep_hrs": 1.72,
+          "rem_hrs": 1.7,
+          "light_hrs": 3.95,
+          "awake_hrs": 0.52
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 55,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 90,
+          "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 0,
+          "charged": 56,
           "drained": 0
         },
         "avg_stress": null,
-        "resting_hr": 57.0
+        "resting_hr": 52.0
       },
       "activities": []
     }

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated_at": "2026-11-10",
-    "total_days": 483,
+    "updated_at": "2026-11-11",
+    "total_days": 484,
     "first_date": "2025-07-16",
-    "last_date": "2026-11-10"
+    "last_date": "2026-11-11"
   },
   "days": {
     "2025-07-16": {
@@ -39823,10 +39823,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": null,
-            "humidity_pct": null,
-            "wind_kph": null,
-            "weather_desc": ""
+            "temp_c": 6.8,
+            "humidity_pct": 92,
+            "wind_kph": 8.9,
+            "weather_desc": "Mainly clear"
           },
           "splits": [
             {
@@ -39970,8 +39970,8 @@
           "status": "BALANCED"
         },
         "body_battery": {
-          "charged": 66,
-          "drained": 57
+          "charged": 69,
+          "drained": 65
         },
         "avg_stress": null,
         "resting_hr": 51.0
@@ -40104,6 +40104,33 @@
           ]
         }
       ]
+    },
+    "2026-11-11": {
+      "date": "2026-11-11",
+      "wellness": {
+        "date": "2026-11-11",
+        "sleep": {
+          "score": null,
+          "duration_hrs": null,
+          "deep_hrs": null,
+          "rem_hrs": null,
+          "light_hrs": null,
+          "awake_hrs": null
+        },
+        "hrv": {
+          "weekly_avg": null,
+          "last_night": null,
+          "5min_high": null,
+          "status": null
+        },
+        "body_battery": {
+          "charged": 7,
+          "drained": 0
+        },
+        "avg_stress": null,
+        "resting_hr": 55.0
+      },
+      "activities": []
     }
   }
 }

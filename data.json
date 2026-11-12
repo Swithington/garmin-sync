@@ -39999,10 +39999,10 @@
             "zone_5_mins": 0.0
           },
           "weather": {
-            "temp_c": 8.6,
-            "humidity_pct": 85,
-            "wind_kph": 15.2,
-            "weather_desc": "Drizzle"
+            "temp_c": null,
+            "humidity_pct": null,
+            "wind_kph": null,
+            "weather_desc": ""
           },
           "splits": [
             {

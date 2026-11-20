@@ -40695,6 +40695,69 @@
       },
       "activities": [
         {
+          "activity_id": 25143513462,
+          "name": "Hillingdon Running",
+          "type": "running",
+          "distance_km": 2.84,
+          "duration": "17:10",
+          "avg_hr": 158.0,
+          "max_hr": 173.0,
+          "avg_pace_min_km": "6:02",
+          "elevation_gain_m": 10.824281692504883,
+          "training_effect": 2.5999999046325684,
+          "vo2max": 51.0,
+          "calories": 236.0,
+          "hr_drift_pct": 0.0,
+          "hr_zones": {
+            "zone_1_mins": 0.0,
+            "zone_2_mins": 1.0,
+            "zone_3_mins": 10.9,
+            "zone_4_mins": 4.9,
+            "zone_5_mins": 0.0
+          },
+          "weather": {
+            "temp_c": 7.4,
+            "humidity_pct": 85,
+            "wind_kph": 5.8,
+            "weather_desc": "Overcast"
+          },
+          "splits": [
+            {
+              "split_number": 1,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:11",
+              "pace_min_km": "6:11",
+              "avg_hr": 148.0,
+              "max_hr": 164.0,
+              "avg_cadence": 155.40625,
+              "elevation_gain": 0.0
+            },
+            {
+              "split_number": 2,
+              "split_type": "lap",
+              "distance_km": 1.0,
+              "duration": "6:00",
+              "pace_min_km": "6:00",
+              "avg_hr": 162.0,
+              "max_hr": 168.0,
+              "avg_cadence": 162.671875,
+              "elevation_gain": 7.0
+            },
+            {
+              "split_number": 3,
+              "split_type": "lap",
+              "distance_km": 0.841,
+              "duration": "4:58",
+              "pace_min_km": "5:55",
+              "avg_hr": 165.0,
+              "max_hr": 173.0,
+              "avg_cadence": 156.53125,
+              "elevation_gain": 3.82
+            }
+          ]
+        },
+        {
           "activity_id": 25138785531,
           "name": "Hillingdon Running",
           "type": "running",

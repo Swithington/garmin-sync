@@ -40849,21 +40849,21 @@
       "wellness": {
         "date": "2026-11-21",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 59,
+          "duration_hrs": 6.37,
+          "deep_hrs": 1.68,
+          "rem_hrs": 0.48,
+          "light_hrs": 4.2,
+          "awake_hrs": 1.1
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 51,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 80,
+          "status": "UNBALANCED"
         },
         "body_battery": {
-          "charged": 0,
+          "charged": 21,
           "drained": 0
         },
         "avg_stress": null,

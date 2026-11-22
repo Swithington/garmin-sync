@@ -41014,17 +41014,17 @@
           "awake_hrs": null
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 51,
           "last_night": null,
           "5min_high": null,
-          "status": null
+          "status": "UNBALANCED"
         },
         "body_battery": {
-          "charged": null,
-          "drained": null
+          "charged": 0,
+          "drained": 1
         },
         "avg_stress": null,
-        "resting_hr": null
+        "resting_hr": 79.0
       },
       "activities": []
     }

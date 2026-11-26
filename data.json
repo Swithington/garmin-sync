@@ -41114,22 +41114,22 @@
       "wellness": {
         "date": "2026-11-26",
         "sleep": {
-          "score": null,
-          "duration_hrs": null,
-          "deep_hrs": null,
-          "rem_hrs": null,
-          "light_hrs": null,
-          "awake_hrs": null
+          "score": 81,
+          "duration_hrs": 6.35,
+          "deep_hrs": 1.17,
+          "rem_hrs": 0.85,
+          "light_hrs": 4.33,
+          "awake_hrs": 0.27
         },
         "hrv": {
-          "weekly_avg": null,
+          "weekly_avg": 51,
           "last_night": null,
-          "5min_high": null,
-          "status": null
+          "5min_high": 90,
+          "status": "UNBALANCED"
         },
         "body_battery": {
-          "charged": 4,
-          "drained": 9
+          "charged": 50,
+          "drained": 29
         },
         "avg_stress": null,
         "resting_hr": 53.0

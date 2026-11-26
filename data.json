@@ -41128,11 +41128,11 @@
           "status": null
         },
         "body_battery": {
-          "charged": 0,
-          "drained": 2
+          "charged": 4,
+          "drained": 9
         },
         "avg_stress": null,
-        "resting_hr": 61.0
+        "resting_hr": 53.0
       },
       "activities": []
     }
